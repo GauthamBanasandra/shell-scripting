@@ -6,4 +6,5 @@
 # All comments begin with a hash.
 
 # $<n> is the nth argument to the script.
+# >> is the redirection operator.
 echo $1 >> notes.txt
