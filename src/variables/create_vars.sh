@@ -7,3 +7,12 @@ greeting="hello"
 
 # Retrieve the variable's value by $var or ${var}
 echo ${greeting}
+
+# Be careful when assigning a string with multiple words, that are space separated.
+# Always enclose them with double-quotes.
+multiple_words="there seems to be more than one word in this line"
+
+# As mentioned earlier, bash simply replaces all the ${} constructs with their respective values. Doesn't care if it's
+#	in a string or not.
+line="${greeting}, ${multiple_words}"
+echo ${line}
