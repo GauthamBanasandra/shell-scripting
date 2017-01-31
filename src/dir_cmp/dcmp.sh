@@ -18,7 +18,7 @@ if [[ ! -d $1 ]]; then
     exit 1
 fi
 if [[ ! -d $2 ]]; then
-    echo "$1 is not a directory"
+    echo "$2 is not a directory"
     exit 1
 fi
 
