@@ -15,3 +15,5 @@ echo "now, enter some more words"
 read var1 var2
 echo "var1 contains ${var1}"
 echo "var2 contains ${var2}"
+# Remember, IFS is only valid till the immediate read.
+	# So, IFS needs to be set before using the read command again.
